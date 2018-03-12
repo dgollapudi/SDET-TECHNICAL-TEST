@@ -161,9 +161,10 @@ public class BetPlacement implements WebElements {
         Logging.info(this.getClass(), "Bet is placed");
     }
 
-    @After
     @Then("^I closed browser$")
     public void iClosedBrowser() throws Throwable {
         actions.close();
     }
+
+
 }

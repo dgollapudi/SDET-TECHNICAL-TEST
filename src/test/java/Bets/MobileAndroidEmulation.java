@@ -17,7 +17,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 // Initializing mobile android virtual device on android emulator and running the script using appium
-public class MobileEmulation {
+public class MobileAndroidEmulation {
     public static void main(String[] args) throws MalformedURLException {
         //setting capabilities for Android device
         DesiredCapabilities dc = new DesiredCapabilities();
