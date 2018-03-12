@@ -16,11 +16,10 @@ import java.net.URL;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-/**
- * Created by dgollapudi on 10/03/2018.
- */
+// Initializing mobile android virtual device on android emulator and running the script using appium
 public class MobileEmulation {
     public static void main(String[] args) throws MalformedURLException {
+        //setting capabilities for Android device
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.BROWSER_NAME,"BROWSER");
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);

@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.server.DriverFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-
+// device emulation on chrome browser
 public class MobileBets implements WebElements {
     public String deviceName;
     protected WebDriver driver = null;
